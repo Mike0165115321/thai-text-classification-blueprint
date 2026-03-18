@@ -1,0 +1,34 @@
+# Environments
+venv/
+env/
+.env
+
+# Python specific caching and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Deep Learning Models & Weights (The Heavy Stuff)
+my_thai_model/
+my_thai_model_real/
+results/
+results_real/
+*.bin
+*.pth
+*.pt
+*.safetensors
+*.h5
+*.msgpack
+*.ckpt
+
+# Temporary data / Caching
+.cache/
+datasets/
+wisesight_sentiment/
+
+# IDE & OS specifics
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

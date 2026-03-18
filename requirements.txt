@@ -1,0 +1,18 @@
+# Core Deep Learning Libraries
+torch
+torchvision
+torchaudio
+
+# Hugging Face Ecosystem
+transformers>=4.30.0
+datasets
+accelerate
+
+# Classical ML & Data Processing
+scikit-learn
+pandas
+
+# Thai NLP & Tokenization
+pythainlp
+sentencepiece
+protobuf

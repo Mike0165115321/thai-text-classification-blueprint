@@ -42,8 +42,8 @@ source venv/bin/activate
 # 2. ติดตั้งแกนประมวลผล PyTorch (รองรับแผงวงจร CUDA 12.1)
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
-# 3. โหลดคลังอาวุธสำหรับสร้าง AI และทำจัดเรียงข้อมูล
-pip install transformers datasets scikit-learn pandas pythainlp sentencepiece protobuf accelerate
+# 3. ติดตั้งคลังอาวุธทั้งหมดรวดเดียวผ่าน Requirements
+pip install -r requirements.txt
 ```
 
 ### 2. เรียกน้ำย่อยปลุกปั้นโมเดล AI (Training)

@@ -26,6 +26,13 @@
 
 ## 🚀 วิธีสับสวิตช์เริ่มทำงาน (Quick Start)
 
+### 0. โคลนโปรเจกต์ต้นแบบ (Clone Repository)
+ก่อนอื่นเลย ให้ดึงโค้ดชุดนี้ลงมาบนเครื่องของคุณ:
+```bash
+git clone https://github.com/Mike0165115321/thai-text-classification-blueprint.git
+cd thai-text-classification-blueprint
+```
+
 ### 1. เตรียมสภาพแวดล้อมและติดตั้งส่วนเสริม (Setup Environment)
 ```bash
 # 1. สร้างพื้นที่แยกส่วน (Virtual Environment)
